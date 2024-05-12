@@ -1,0 +1,517 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=0,maximum-scale=10,user-scalable=yes,viewport-fit=cover">
+<meta name="format-detection" content="telephone=no, address=no, email=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<meta http-equiv="Pragma" content="no-cache">
+<meta name="Author" content="ATW 2024">
+<meta name="Keywords" content="ATW 2024">
+<meta name="description" content="ATW 2024">
+<title>ATW 2024</title>
+<link rel="icon" href="/image/favicon.ico">
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+<link rel="stylesheet" href="/assets/css/slick.css">
+<link rel="stylesheet" href="/assets/css/common.css">
+<script src="/assets/js/jquery-1.12.4.min.js"></script>
+<script src="/assets/js/slick.min.js"></script>
+<script src="/assets/js/common.js"></script>
+</head>
+<body>
+    <!-- 
+        main일 때 class="main"
+        sub일 때 class="sub"
+    -->
+	<header id="header" class="js-header main-header">
+        <div class="header-wrap">
+            <div class="inner-layer">
+                <div class="btn-home">
+                    <a href="/"><img src="/assets/image/icon/ic_home.png" alt="Home"></a>
+                </div>
+                <h1 class="header-logo"><a href="/"><img src="/assets/image/common/h1_logo.png" alt="ATW 2024"></a></h1>
+                <div class="util-menu-wrap m-hide">
+                    <ul class="util-menu">
+                        <li><a href="#n" title="Go to Admin">ADMIN</a></li>
+                        <li><a href="/" title="Go to Home">HOME</a></li>
+                        <li><a href="#n" title="Go to Sign up">SIGN UP</a></li>
+                        <li><a href="#n" title="Go to Login">LOGIN</a></li>
+                    </ul>
+                </div>
+                <div class="dday-conbox inc-header js-dday">
+                    <span class="dday">D-100</span>
+                    <span class="today">Today. 2024-01-01</span>
+                </div>
+                <button type="button" class="btn btn-menu-open js-btn-menu-open"><span class="hide">메뉴 열기</span></button>
+            </div>
+        </div>
+        <nav id="gnb" class="js-gnb">
+            <div class="m-gnb-header">
+                <div class="dday-wrap">
+                    <img src="/assets/image/main/img_dday.png" alt="">
+                    <p>
+                        <span class="today">Today 2024-01-01</span>
+                        <span class="dday">D-100</span>
+                    </p>
+                </div>
+                <div class="util-wrap">
+                    <ul class="util-menu cf">
+                        <li class="signup"><a href="/">SIGN UP</a></li>
+                        <li class="logout"><a href="#n">LOGOUT</a></li>
+                        <li class="mypage"><a href="#n">MY PAGE</a></li>
+                    </ul>
+                </div>
+            </div>
+            <article class="gnb-wrap">
+                <ul class="gnb-list inner-layer m-hide cf">
+                    <li><a href="#n">About ATW 2024</a></li>
+                    <li><a href="#n">Scientific Program</a></li>
+                    <li><a href="#n">Call for Abstracts</a></li>
+                    <li><a href="#n">Awards & Grant</a></li>
+                    <li><a href="#n">Registration</a></li>
+                    <li><a href="#n">Travel Information</a></li>
+                    <li><a href="#n">Accommodation</a></li>
+                    <li><a href="#n">Sponsors</a></li>
+                </ul>
+                <ul class="gnb m-js-gnb m-inner-layer">
+                    <li>
+                        <a href="#n" class="w-hide">About ATW 2024</a>
+                        <ul>
+                            <li class="gnb-list-tit">About ATW 2024</li>
+                            <li><a href="#n" title="Go to Greetings">Greetings</a></li>
+                            <li><a href="#n" title="Go to Overview">Overview</a></li>
+                            <li><a href="#n" title="Go to Organizing Committee">Organizing Committee</a></li>
+                            <li><a href="#n" title="Go to Venue">Venue</a></li>
+                            <li><a href="#n" title="Go to What’s News">What’s News</a></li>
+                            <li><a href="#n" title="Go to Newsletter">Newsletter</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#n" class="w-hide">Scientific Program</a>
+                        <ul>
+                            <li class="gnb-list-tit">Scientific Program</li>
+                            <li><a href="#n" title="Go to Program at a Glance">Program at a Glance</a></li>
+                            <li><a href="#n" title="Go to Daily Program">Daily Program</a></li>
+                            <li><a href="#n" title="Go to Official & Social Program">Official & Social Program</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#n" class="w-hide">Call for Abstracts</a>
+                        <ul>
+                            <li class="gnb-list-tit">Call for Abstracts</li>
+                            <li><a href="#n" title="Go to Abstract Submission (Oral/Poster)">Abstract Submission<br> (Oral/Poster)</a></li>
+                            <li><a href="#n" title="Go to Invited Lecture Note Submission">Invited Lecture Note<br> Submission</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#n" class="w-hide">Awards & Grant</a>
+                        <ul>
+                            <li class="gnb-list-tit">Awards & Grant</li>
+                            <li><a href="#n" title="Go to Scientific Awards">Scientific Awards</a></li>
+                            <li><a href="#n" title="Go to Travel Grant">Travel Grant</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#n" class="w-hide">Registration</a>
+                        <ul>
+                            <li class="gnb-list-tit">Registration</li>
+                            <li><a href="#n" title="Go to For Korean Registrants">For Korean<br> Registrants</a></li>
+                            <li><a href="#n" title="Go to For International Registrants">For International<br> Registrants</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#n" class="w-hide">Travel Information</a>
+                        <ul>
+                            <li class="gnb-list-tit">Travel Information</li>
+                            <li><a href="#n" title="Go to Transportation (for Koreans)">Transportation<br> (for Koreans)</a></li>
+                            <li><a href="#n" title="Go to Transportation (for Foreigners)">Transportation<br> (for Foreigners)</a></li>
+                            <li><a href="#n" title="Go to About Seoul & Korea">About Seoul & Korea</a></li>
+                            <li><a href="#n" title="Go to VISA Information">VISA</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#n" class="w-hide">Accommodation</a>
+                        <ul>
+                            <li class="gnb-list-tit">Accommodation</li>
+                            <li><a href="#n" title="Go to Accommodation">Accommodation</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#n" class="w-hide">Sponsors</a>
+                        <ul>
+                            <li class="gnb-list-tit">Sponsors</li>
+                            <li><a href="#n" title="Go to Sponsorship">Sponsorship</a></li>
+                            <li><a href="#n" title="Go to List of Sponsors">List of Sponsors</a></li>
+                            <li><a href="#n" title="Go to Luncheon Symposium">Luncheon Symposium</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </article>
+            <button type="button" class="btn btn-menu-close js-btn-menu-close"><span class="hide">메뉴 닫기</span></button>
+        </nav>
+        <div id="dim" class="js-dim"></div>
+    </header>
+
+    <section id="container" class="main bg-area">
+        <article class="main-visual inner-layer">
+            <div class="main-visual-top">
+                <div class="main-slider-wrap js-main-visual cf">
+                    <div class="main-visual-con slide01">
+                        <!-- <div class="slide"></div> -->
+                        <div class="slide"></div>
+                    </div>
+                    <div class="main-visual-con slide02">
+                        <!-- <div class="slide" style="background:url(/assets/image/main/main_slide02.jpg) left center / cover no-repeat"></div> -->
+                        <div class="slide"></div>
+                    </div>
+                </div>
+                <div class="main-aside-section">
+                    <div class="aside-sec01">
+                        <div class="dday-conbox">
+                            <span class="dday">D-100</span>
+                            <span class="today">Today. 2024-01-01</span>
+                        </div>
+                    </div>
+                    <div class="aside-sec02">
+                        <div class="main-visual-sub menu1">
+                            <div class="sub">
+                                <a href="#n" class="type-border">About<br>2024 UDNI</a>
+                            </div>
+                        </div>
+                        <div class="main-visual-sub menu2">
+                            <img src="/assets/image/main/bg_main_aside.jpg" alt="">
+                            <div class="sub">
+                                Scientific<br>Program
+                                <ul>
+                                    <li><a href="#n">- Program at a Glance</a></li>
+                                    <li><a href="#n">- Daily Program</a></li>
+                                    <li><a href="#n">- Official & Social Program</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="main-visual-sub menu3">
+                            <div class="sub">
+                                <a href="#n" class="type-bg">Call for<br>Abstracts</a>
+                            </div>
+                        </div>
+                        <div class="main-visual-sub menu4">
+                            <div class="sub">
+                                <a href="#n" class="type-border">Registration</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>      
+            <div class="main-visual-bottom">
+                <ul class="schedule-list">
+                    <li class="type01">
+                        <div class="txt-box">
+                            <p class="schedule">Deadline of<br>Abstract Submission</p>
+                            <p class="date">August 31 (Sat),<br>2024</p>
+                        </div>
+                        <div class="dday">
+                            <span>D-100</span>
+                        </div>
+                    </li>
+                    <li class="type02">
+                        <div class="txt-box">
+                            <p class="schedule">Notification of<br>Abstract Acceptance</p>
+                            <p class="date">September 6 (Fri),<br>2024</p>
+                        </div>
+                        <div class="dday">
+                            <span>D-100</span>
+                        </div>
+                    </li>
+                    <li class="type03">
+                        <div class="txt-box">
+                            <p class="schedule">Deadline for<br>Early Registration</p>
+                            <p class="date">September 27 (Fri),<br>2024</p>
+                        </div>
+                        <div class="dday">
+                            <span>D-100</span>
+                        </div>
+                    </li>
+                    <li class="type04">
+                        <div class="txt-box">
+                            <p class="schedule">Deadline for<br>Pre Registration </p>
+                            <p class="date">November 1 (Fri),<br>2024</p>
+                        </div>
+                        <div class="dday">
+                            <span>D-100</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </article>
+    </section>
+
+    <section class="main cont-mt">
+        <article class="main-contents inner-layer">
+            <div class="main-tit-wrap text-center">
+                <h3 class="main-tit">Invited Speakers</h3>
+                <div class="speakers btn-more">
+                    <a href="#n" class="btn-more-view" title="More View">More View +</a>
+                </div>
+            </div>
+            <div class="speakers-rolling-wrap">
+                <div class="speakers-arrows-wrap">
+                    <button type="button" class="btn-speakers btn-speakers-prev" title="Previous view"><span class="hide">Previous view</span></button>
+                    <button type="button" class="btn-speakers btn-speakers-next" title="Next view"><span class="hide">Next view</span></button>
+                </div>
+                <div class="speakers-rolling js-speakers-rolling cf">
+                    <div class="speakers-con line-animation1">
+                        <a href="#n">
+                            <span class="img-wrap">
+                                <img src="/assets/image/main/temp_img_speakers.jpg" alt="">
+                            </span>
+                            <span class="text-wrap">
+                                <strong class="tit">JAdmin m2</strong>
+                                <span>M2Community, Korea</span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="speakers-con line-animation1">
+                        <a href="#n">
+                            <span class="img-wrap">
+                                <img src="/assets/image/main/temp_img_speakers.jpg" alt="">
+                            </span>
+                            <v class="text-wrap">
+                                <strong class="tit">Admin m2</strong>
+                                <span>M2Community, Korea</span>
+                            </v>
+                        </a>
+                    </div>
+                    <div class="speakers-con line-animation1">
+                        <a href="#n">
+                            <span class="img-wrap">
+                                <img src="/assets/image/main/temp_img_speakers.jpg" alt="">
+                            </span>
+                            <span class="text-wrap">
+                                <strong class="tit">Admin m2</strong>
+                                <span>M2Community, Korea</span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="speakers-con line-animation1">
+                        <a href="#n">
+                            <span class="img-wrap">
+                                <img src="/assets/image/main/temp_img_speakers.jpg" alt="">
+                            </span>
+                            <span class="text-wrap">
+                                <strong class="tit">Admin m2</strong>
+                                <span>M2Community, Korea</span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="speakers-con line-animation1">
+                        <a href="#n">
+                            <span class="img-wrap">
+                                <img src="/assets/image/main/temp_img_speakers.jpg" alt="">
+                            </span>
+                            <span class="text-wrap">
+                                <strong class="tit">Admin m2</strong>
+                                <span>M2Community, Korea</span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="speakers-con line-animation1">
+                        <a href="#n">
+                            <span class="img-wrap">
+                                <img src="/assets/image/main/temp_img_speakers.jpg" alt="">
+                            </span>
+                            <span class="text-wrap">
+                                <strong class="tit">Admin m2</strong>
+                                <span>M2Community, Korea</span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="speakers-con line-animation1">
+                        <a href="#n">
+                            <span class="img-wrap">
+                                <img src="/assets/image/main/temp_img_speakers.jpg" alt="">
+                            </span>
+                            <span class="text-wrap">
+                                <strong class="tit">Admin m2</strong>
+                                <span>M2Community, Korea</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article class="main-contents news-wrap">
+            <div class="col-wrap inner-layer">
+                <div class="col2 new">
+                    <div class="cont-box">
+                        <div class="main-tit-wrap text-center">
+                            <h3 class="main-tit">What's New</h3>
+                            <div class="cont-btn-wrap">
+                                <div class="news btn-more">
+                                    <a href="#n" class="btn-more-view" title="More View">More View +</a>
+                                </div>
+                                <div class="news-arrows-wrap">
+                                    <button type="button" class="btn-news btn-news-prev" title="Previous view"><span class="hide">Previous view</span></button>
+                                    <button type="button" class="btn-news btn-news-next" title="Next view"><span class="hide">Next view</span></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-rolling-wrap">
+                            <div class="news-rolling js-news-rolling cf">
+                                <div class="news-con line-animation1">
+                                    <a href="#n">
+                                        <div class="text-wrap">
+                                            <p class="tit"><strong>[2024 UDNI] Abstract Submission is Now Open!</strong></p>
+                                            <p class="info">The abstract submission for the 2024 UDNI is now open!<br>We look forward to your active participation</p>
+                                            <p class="date">2024-05-01</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="news-con line-animation1">
+                                    <a href="#n">
+                                        <div class="text-wrap">
+                                            <p class="tit"><strong>[2024 UDNI] Abstract Submission is Now Open!</strong></p>
+                                            <p class="info">The abstract submission for the 2024 UDNI is now open!<br>We look forward to your active participation</p>
+                                            <p class="date">2024-05-01</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="news-con line-animation1">
+                                    <a href="#n">
+                                        <div class="text-wrap">
+                                            <p class="tit"><strong>[2024 UDNI] Abstract Submission is Now Open!</strong></p>
+                                            <p class="info">The abstract submission for the 2024 UDNI is now open!<br>We look forward to your active participation</p>
+                                            <p class="date">2024-05-01</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col2 newsletter">
+                    <div class="cont-box">
+                        <div class="main-tit-wrap text-center">
+                            <h3 class="main-tit">Newsletter</h3>
+                            <div class="cont-btn-wrap">
+                                <div class="news btn-more">
+                                    <a href="#n" class="btn-more-view" title="More View">More View +</a>
+                                </div>
+                                <div class="news-arrows-wrap">
+                                    <button type="button" class="btn-newsletter btn-newsletter-prev" title="Previous view"><span class="hide">Previous view</span></button>
+                                    <button type="button" class="btn-newsletter btn-newsletter-next" title="Next view"><span class="hide">Next view</span></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-rolling-wrap">
+                            <div class="news-rolling letter js-newsletter-rolling cf">
+                                <div class="newsletter-con type-thumb">
+                                    <a href="#n">
+                                        <div class="thumb-wrap line-animation1">
+                                            <img src="/assets/image/main/temp_img_thumb.jpg" alt="">
+                                        </div>
+                                        <div class="text-wrap">
+                                            <strong class="tit">[2024 UDNI]<br>1st Newsletter</strong>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="newsletter-con type-thumb">
+                                    <a href="#n">
+                                        <div class="thumb-wrap line-animation1">
+                                            <img src="/assets/image/main/temp_img_thumb.jpg" alt="">
+                                        </div>
+                                        <div class="text-wrap">
+                                            <strong class="tit">[2024 UDNI]<br>2st Newsletter</strong>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="newsletter-con type-thumb">
+                                    <a href="#n">
+                                        <div class="thumb-wrap line-animation1">
+                                            <img src="/assets/image/main/temp_img_thumb.jpg" alt="">
+                                        </div>
+                                        <div class="text-wrap">
+                                            <strong class="tit">[2024 UDNI]<br>3st Newsletter</strong>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article class="main-contents inner-layer">
+            <div class="main-tit-wrap text-center">
+                <h3 class="main-tit">Download Center</h3>
+            </div>
+            <div class="download-wrap">
+                <div class="box line-animation2 down1"><a href="#n" title="Program Book Download" onclick="alert('Will be updated.');">Program<br> Book</a></div>
+                <div class="box line-animation2 down2"><a href="#n" title="Abstract Book Download" onclick="alert('Will be updated.');">Abstract<br> Book</a></div>
+                <div class="box line-animation2 down3"><a href="#n" title="PowerPoint Template Download" onclick="alert('Will be updated.');">PowerPoint<br> Template</a></div>
+                <div class="box line-animation2 down4"><a href="#n" title="Promotional Meterials Download" onclick="alert('Will be updated.');">Promotional<br> Meterials</a></div>
+            </div>
+        </article>
+    </section>    
+
+    <section class="sponsor-wrap">
+        <div class="sponsor-list-wrap inner-layer">
+            <strong class="tit">Sponsors by</strong>
+            <div class="sponsor-rolling-wrap">
+                <button type="button" class="btn-slick btn-slick-prev"><span class="hide">이전</span></button>
+                <button type="button" class="btn-slick btn-slick-next"><span class="hide">이전</span></button>
+                <div class="sponsor-list js-sponsor-list cf">
+                    <a href="#n"><img src="/assets/image/main/temp_img_sponsor.png" alt=""></a>
+                    <a href="#n"><img src="/assets/image/main/temp_img_sponsor.png" alt=""></a>
+                    <a href="#n"><img src="/assets/image/main/temp_img_sponsor.png" alt=""></a>
+                    <a href="#n"><img src="/assets/image/main/temp_img_sponsor.png" alt=""></a>
+                    <a href="#n"><img src="/assets/image/main/temp_img_sponsor.png" alt=""></a>
+                    <a href="#n"><img src="/assets/image/main/temp_img_sponsor.png" alt=""></a>
+                    <a href="#n"><img src="/assets/image/main/temp_img_sponsor.png" alt=""></a>
+                    <a href="#n"><img src="/assets/image/main/temp_img_sponsor.png" alt=""></a>
+                </div>
+            </div>
+        </div>      
+    </section>
+
+    <footer id="footer">
+        <div class="footer-wrap inner-layer">
+            <div class="footer-con">
+                <p class="footer-logo"><strong>The Korean Society for Transplantation</strong></p>
+                <ul>
+                    <li>206, 2FL, 86, Tongil-ro, Jung-gu, Seoul 04517, Republic of Korea</li>
+                    <li>Tel: +82-2-484-8052 / Fax: +82-2-485-8052</li>
+                    <li>Business License No.: 215-82-63938</li>
+                    <li>통신판매업신고번호: 제 2022-서울마포-2539 호</li>
+                    <li>Chair, Organizing Committee: Myoung Soo Kim</li>
+                </ul>
+                <div class="footer-btn-wrap">
+                    <a href="#n" title="Open Popup" onclick="alert('Will be updated.');">Privacy Policy</a>
+                    <a href="#n" title="Open Popup" onclick="alert('Will be updated.');">Terms of Use</a>
+                </div>
+            </div>
+            <div class="footer-con">
+                <p class="footer-logo"><strong>ATW 2024 SECRETARIAT</strong></p>
+                <p class="footer-desc">InSession International Convention Services, Inc.</p>
+                <ul>
+                    <li>4Fl., 10, Yeoksam-ro 7-gil, Gangnam-gu, Seoul 06244, Korea</li>
+                    <li>Tel: +82-2-6207-8176 / Fax: +82-2-521-8683</li>
+                    <li>Email: <a href="#;">ATW2024@insession.co.kr</a></li>
+                </ul>
+                <div class="footer-sns-wrap">
+                    <a href="#n" title="Go to Facebook" onclick="alert('Will be updated.');"><img src="/assets/image/common/ico_facebook.png" alt="facebook"></a>
+                    <a href="#n" title="Go to Instagram" onclick="alert('Will be updated.');"><img src="/assets/image/common/ico_insta.png" alt="instagram"></a>
+                    <a href="#n" title="Go to X(Twitter)" onclick="alert('Will be updated.');"><img src="/assets/image/common/ico_x.png" alt="X(Twitter)"></a>
+                </div>
+            </div> 
+        </div>
+        <div class="footer-copy">
+            <p>Copyright © ATW 2024. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
